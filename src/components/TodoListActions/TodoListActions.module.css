@@ -45,46 +45,35 @@
 }
 
 .priorityButton {
-  min-width: auto !important;
-  padding: 8px 12px !important;
+  min-width: auto;
+  padding: 8px 12px;
 }
 
 .highPriority {
-  background-color: #ff4d4f !important;
-  color: white !important;
+  background-color: #ff4d4f;
+  color: white;
 }
 
 .mediumPriority {
-  background-color: #faad14 !important;
-  color: white !important;
+  background-color: #faad14;
+  color: white;
 }
 
 .lowPriority {
-  background-color: #52c41a !important;
-  color: white !important;
+  background-color: #52c41a;
+  color: white;
 }
 
 .completeButton {
-  background-color: #1677FF !important;
-  color: white !important;
+  background-color: #1677FF;
+  color: white;
 }
 
 .deleteButton {
-  background-color: #ff4d4f !important;
-  color: white !important;
+  background-color: #ff4d4f;
+  color: white;
 }
 
 .selectAllButton, .deselectButton {
-  background-color: #f0f0f0 !important;
+  background-color: #f0f0f0;
 }
-
-@media (max-width: 600px) {
-  .actions {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .priorityButtons {
-    flex-wrap: wrap;
-  }
-} 
