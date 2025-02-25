@@ -1,0 +1,43 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filters,
+.priorityFilters,
+.sortButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.priorityFilters {
+  flex-wrap: wrap;
+}
+
+.sortButton {
+  min-width: 120px;
+}
+
+.active {
+  background: #1677FF;
+}
+
+.searchContainer {
+  margin-bottom: 8px;
+}
+
+.searchInput {
+  width: 100%;
+  background-color: #F5F5F5;
+}

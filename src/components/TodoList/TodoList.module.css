@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.todoList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.statusOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+
+.loading {
+  color: #1677FF;
+  font-weight: 700;
+}
+
+.error {
+  color: #ff4d4f;
+  font-weight: 700;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 32px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+
+.emptyStateTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.emptyStateText {
+  color: #666;
+}
+
+.active {
+  background: #1677FF;
+}

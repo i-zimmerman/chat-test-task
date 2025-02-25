@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  flex-wrap: wrap;
+  
+}
